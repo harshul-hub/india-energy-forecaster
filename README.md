@@ -93,6 +93,21 @@ india-energy-forecaster/
 ```
 ---
 
+# 🖼️ Visualizations
+
+## 📊 Maharashtra
+
+![Maharashtra Next Month Forecast](outputs/maharashtra_next_month_forecast.png)
+
+---
+
+## 🔥 Total Forcast
+
+![Correlation Heatmap](outputs/monthly_total_by_state.png)
+
+---
+
+
 
 ## ⚙️ Preprocessing
 
