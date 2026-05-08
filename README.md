@@ -1,20 +1,39 @@
-# India Energy Demand Forecaster
+# ⚡ India Energy Demand Forecaster
 
-A machine learning project that forecasts electricity demand across five Indian states and estimates total energy consumption for the next month.
+A machine learning project focused on forecasting electricity demand across five Indian states and estimating total energy consumption for the next month using state-wise time-series forecasting.
 
 ---
-## Authors
 
-| Name | Roll Number |
-|------|-------------|
-| *Harshul Goel* | *245UAI049* |
+## 🚀 Project Overview
+
+Electricity demand forecasting plays an important role in power generation planning, grid management, and energy resource allocation.
+
+This project uses historical daily electricity consumption data to build **state-wise forecasting models** for five Indian states.
+
+The model predicts:
+
+- **Next 30 days of daily energy consumption**
+- **Total energy consumption for the next month**
+
+The project also includes:
+
+- 📊 Exploratory data analysis
+- ⚡ Time-series feature engineering
+- 🧠 State-wise machine learning models
+- 📈 Forecast visualization
+- 💾 Model saving and forecast export
+
 ---
 
-## Overview
 
-Electricity demand forecasting helps power planners understand future consumption patterns and improve generation planning.
 
-This project uses historical daily energy consumption data to build **state-wise forecasting models** for:
+## 🎯 Problem Statement
+
+Electricity demand varies due to seasonal effects, weekly consumption patterns, and recent historical usage.
+
+The objective of this project is to use past energy consumption data to estimate future electricity demand at the **state level**.
+
+The forecasting is performed for the following states:
 
 - Maharashtra
 - Gujarat
@@ -22,34 +41,32 @@ This project uses historical daily energy consumption data to build **state-wise
 - Karnataka
 - Uttar Pradesh
 
-The model predicts:
+---
 
-- **next 30 days of daily energy consumption**
-- **total next-month energy consumption for each state**
+## 📂 Dataset Information
+
+The dataset contains historical daily electricity consumption records for five Indian states.
+
+### Dataset columns
+
+| Column | Description |
+|--------|-------------|
+| `date` | Daily observation date |
+| `state` | State name |
+| `consumption_mu` | Daily electricity consumption |
+
+### Source
+
+The current dataset is a sample dataset created for forecasting experiments.
+
+The project can be extended using official data from:
+
+- **Central Electricity Authority (CEA), India**
+- **National Power Portal (NPP), India**
 
 ---
 
-## Problem Statement
-
-Energy demand changes due to seasonal patterns, weekday behavior, and recent historical demand.
-
-The objective of this project is to use past consumption trends to estimate upcoming demand at the **state level**.
-
----
-
-## Features Used
-
-The forecasting model uses:
-
-- **Day of week**
-- **Month**
-- **Previous day consumption (`lag_1`)**
-- **Previous week consumption (`lag_7`)**
-- **7-day rolling average**
-
----
-
-## Project Structure
+## 🗂️ Project Structure
 
 ```
 india-energy-forecaster/
@@ -74,64 +91,61 @@ india-energy-forecaster/
 └── .gitignore
 
 ```
+---
 
+
+## ⚙️ Preprocessing
+
+The raw dataset was prepared using the following steps:
+
+- Converted the `date` column to datetime format
+- Sorted records by `state` and `date`
+- Created calendar-based features:
+  - **day of week**
+  - **month**
+- Created lag-based features:
+  - **lag_1** — previous day consumption
+  - **lag_7** — previous week consumption
+- Computed **7-day rolling average**
+- Removed rows with missing values generated during lag creation
 
 ---
 
-## Dataset
+## 🧠 Feature Engineering
 
-The dataset contains historical daily electricity consumption records for five Indian states.
+The forecasting model uses:
 
-### States included
+- **Day of week**
+- **Month**
+- **Previous day demand (`lag_1`)**
+- **Previous week demand (`lag_7`)**
+- **7-day rolling average**
 
-- Maharashtra
-- Gujarat
-- Tamil Nadu
-- Karnataka
-- Uttar Pradesh
-
-### Source
-
-The current dataset is a sample dataset created for forecasting experiments.  
-The project structure can be extended using official data from:
-
-- **Central Electricity Authority (CEA), India**
-- **National Power Portal (NPP), India***Source** | Kaggle — Social Media User Behavior Dataset |
-
+These features help capture short-term consumption behavior and weekly demand patterns.
 
 ---
 
-## Libraries Used
+## 🤖 Model Used
 
-- **pandas** — data loading, cleaning, feature engineering
-- **scikit-learn** — Random Forest model training and evaluation
-- **joblib** — saving trained models
-- **matplotlib** — generating forecast graphs
-- **os** — directory and file handling
+### Random Forest Regressor
 
-Install all dependencies with:
+The project trains **one independent forecasting model per state**.
 
-```bash
-pip install pandas os matplotlib scikit-learn joblib
-```
+### Evaluation Metric
+
+**Mean Absolute Error (MAE)**
+
+MAE measures the average prediction error in energy consumption.
 
 ---
 
-## Models Used
-
-Random Forest Regressor
-Evaluation metric:
-Mean Absolute Error (MAE)
-
----
-
-## Results
+## 📊 Results
 
 The project successfully generated:
 
 - **30-day daily energy demand forecasts** for each of the five states
-- **total predicted energy consumption for the next month** for each state
-- **state-wise visualizations** for easier comparison and interpretation
+- **Total predicted energy consumption for the next month**
+- **State-wise forecast visualizations**
 
 ### Output files
 
@@ -148,27 +162,25 @@ The project successfully generated:
 | Karnataka | 359214.81 |
 | Uttar Pradesh | 497331.66 |
 
-The model captured short-term consumption trends and produced stable next-month forecasts across all five states.
+The model captured short-term demand trends and generated stable forecasts across all states.
 
 ---
 
-## Key Observations
+## 🔍 Key Observations
 
 - Electricity demand shows clear short-term temporal patterns across states.
 - Recent historical consumption (`lag_1`, `lag_7`) strongly influences next-day demand.
 - Weekly patterns help capture weekday and weekend demand variation.
-- The 7-day rolling average reduces short-term fluctuations and improves forecast stability.
+- The 7-day rolling average improves forecast stability by smoothing short-term fluctuations.
 - Forecasted next-month consumption differs across states because of different demand scales and historical usage patterns.
-- State-wise modeling performs better than combining all states into one model because each state has distinct consumption behavior.
----
-
-## Future Improvements
-
--weather-based forecasting
--holiday and festival effects
--larger state coverage
--integration with real government datasets
--interactive Streamlit dashboard
+- State-wise modeling performs better than combining all states into one model.
 
 ---
 
+## 👨‍💻 Authors
+
+| Name | Roll Number |
+|------|-------------|
+| Harshul Goel | 245UAI049 |
+
+---
