@@ -1,0 +1,151 @@
+date,state,predicted_consumption
+2025-07-01,Gujarat,303.67
+2025-07-02,Gujarat,304.54
+2025-07-03,Gujarat,305.86
+2025-07-04,Gujarat,308.49
+2025-07-05,Gujarat,297.16
+2025-07-06,Gujarat,302.04
+2025-07-07,Gujarat,305.89
+2025-07-08,Gujarat,307.93
+2025-07-09,Gujarat,306.61
+2025-07-10,Gujarat,309.09
+2025-07-11,Gujarat,311.17
+2025-07-12,Gujarat,291.87
+2025-07-13,Gujarat,284.55
+2025-07-14,Gujarat,297.9
+2025-07-15,Gujarat,302.74
+2025-07-16,Gujarat,304.79
+2025-07-17,Gujarat,307.16
+2025-07-18,Gujarat,303.85
+2025-07-19,Gujarat,298.13
+2025-07-20,Gujarat,301.93
+2025-07-21,Gujarat,308.68
+2025-07-22,Gujarat,311.85
+2025-07-23,Gujarat,310.03
+2025-07-24,Gujarat,312.29
+2025-07-25,Gujarat,311.85
+2025-07-26,Gujarat,292.12
+2025-07-27,Gujarat,286.62
+2025-07-28,Gujarat,305.06
+2025-07-29,Gujarat,305.43
+2025-07-30,Gujarat,307.05
+2025-07-01,Karnataka,285.27
+2025-07-02,Karnataka,282.23
+2025-07-03,Karnataka,282.73
+2025-07-04,Karnataka,282.39
+2025-07-05,Karnataka,277.99
+2025-07-06,Karnataka,271.51
+2025-07-07,Karnataka,271.43
+2025-07-08,Karnataka,271.52
+2025-07-09,Karnataka,272.41
+2025-07-10,Karnataka,272.78
+2025-07-11,Karnataka,273.2
+2025-07-12,Karnataka,262.07
+2025-07-13,Karnataka,258.48
+2025-07-14,Karnataka,268.39
+2025-07-15,Karnataka,271.28
+2025-07-16,Karnataka,273.45
+2025-07-17,Karnataka,275.33
+2025-07-18,Karnataka,275.22
+2025-07-19,Karnataka,260.82
+2025-07-20,Karnataka,263.62
+2025-07-21,Karnataka,276.3
+2025-07-22,Karnataka,277.84
+2025-07-23,Karnataka,281.04
+2025-07-24,Karnataka,283.22
+2025-07-25,Karnataka,282.93
+2025-07-26,Karnataka,276.08
+2025-07-27,Karnataka,267.9
+2025-07-28,Karnataka,271.92
+2025-07-29,Karnataka,273.25
+2025-07-30,Karnataka,275.05
+2025-07-01,Maharashtra,433.28
+2025-07-02,Maharashtra,436.46
+2025-07-03,Maharashtra,437.18
+2025-07-04,Maharashtra,428.48
+2025-07-05,Maharashtra,422.87
+2025-07-06,Maharashtra,415.91
+2025-07-07,Maharashtra,438.67
+2025-07-08,Maharashtra,436.63
+2025-07-09,Maharashtra,433.34
+2025-07-10,Maharashtra,432.62
+2025-07-11,Maharashtra,430.33
+2025-07-12,Maharashtra,418.46
+2025-07-13,Maharashtra,415.02
+2025-07-14,Maharashtra,436.41
+2025-07-15,Maharashtra,433.3
+2025-07-16,Maharashtra,433.84
+2025-07-17,Maharashtra,433.57
+2025-07-18,Maharashtra,430.02
+2025-07-19,Maharashtra,419.23
+2025-07-20,Maharashtra,415.32
+2025-07-21,Maharashtra,436.64
+2025-07-22,Maharashtra,433.31
+2025-07-23,Maharashtra,433.73
+2025-07-24,Maharashtra,433.56
+2025-07-25,Maharashtra,430.0
+2025-07-26,Maharashtra,418.8
+2025-07-27,Maharashtra,415.25
+2025-07-28,Maharashtra,436.42
+2025-07-29,Maharashtra,434.18
+2025-07-30,Maharashtra,434.03
+2025-07-01,Tamil Nadu,317.3
+2025-07-02,Tamil Nadu,311.19
+2025-07-03,Tamil Nadu,310.38
+2025-07-04,Tamil Nadu,317.15
+2025-07-05,Tamil Nadu,304.29
+2025-07-06,Tamil Nadu,293.31
+2025-07-07,Tamil Nadu,305.46
+2025-07-08,Tamil Nadu,308.48
+2025-07-09,Tamil Nadu,313.64
+2025-07-10,Tamil Nadu,311.5
+2025-07-11,Tamil Nadu,307.4
+2025-07-12,Tamil Nadu,293.01
+2025-07-13,Tamil Nadu,292.97
+2025-07-14,Tamil Nadu,307.99
+2025-07-15,Tamil Nadu,315.94
+2025-07-16,Tamil Nadu,308.83
+2025-07-17,Tamil Nadu,310.3
+2025-07-18,Tamil Nadu,317.88
+2025-07-19,Tamil Nadu,305.91
+2025-07-20,Tamil Nadu,296.67
+2025-07-21,Tamil Nadu,311.64
+2025-07-22,Tamil Nadu,309.78
+2025-07-23,Tamil Nadu,316.53
+2025-07-24,Tamil Nadu,312.9
+2025-07-25,Tamil Nadu,307.23
+2025-07-26,Tamil Nadu,292.05
+2025-07-27,Tamil Nadu,291.18
+2025-07-28,Tamil Nadu,304.87
+2025-07-29,Tamil Nadu,312.23
+2025-07-30,Tamil Nadu,308.92
+2025-07-01,Uttar Pradesh,370.11
+2025-07-02,Uttar Pradesh,369.42
+2025-07-03,Uttar Pradesh,371.88
+2025-07-04,Uttar Pradesh,372.37
+2025-07-05,Uttar Pradesh,370.53
+2025-07-06,Uttar Pradesh,370.72
+2025-07-07,Uttar Pradesh,374.44
+2025-07-08,Uttar Pradesh,377.75
+2025-07-09,Uttar Pradesh,379.01
+2025-07-10,Uttar Pradesh,380.72
+2025-07-11,Uttar Pradesh,377.38
+2025-07-12,Uttar Pradesh,375.56
+2025-07-13,Uttar Pradesh,374.67
+2025-07-14,Uttar Pradesh,375.51
+2025-07-15,Uttar Pradesh,374.38
+2025-07-16,Uttar Pradesh,374.29
+2025-07-17,Uttar Pradesh,371.23
+2025-07-18,Uttar Pradesh,365.73
+2025-07-19,Uttar Pradesh,358.84
+2025-07-20,Uttar Pradesh,343.54
+2025-07-21,Uttar Pradesh,365.05
+2025-07-22,Uttar Pradesh,361.46
+2025-07-23,Uttar Pradesh,356.28
+2025-07-24,Uttar Pradesh,355.21
+2025-07-25,Uttar Pradesh,354.87
+2025-07-26,Uttar Pradesh,341.31
+2025-07-27,Uttar Pradesh,340.57
+2025-07-28,Uttar Pradesh,362.51
+2025-07-29,Uttar Pradesh,360.8
+2025-07-30,Uttar Pradesh,358.02
