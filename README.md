@@ -66,3 +66,6 @@ india-energy-forecaster/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+
+## Author
+Harshul Goel
