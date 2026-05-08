@@ -53,7 +53,7 @@ The dataset contains historical daily electricity consumption records for five I
 |--------|-------------|
 | `date` | Daily observation date |
 | `state` | State name |
-| `consumption_mu` | Daily electricity consumption |
+| `consumption_mu` | Daily electricity consumption in Million Units |
 
 ### Source
 
