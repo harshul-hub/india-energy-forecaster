@@ -177,6 +177,13 @@ The model captured short-term demand trends and generated stable forecasts acros
 
 ---
 
+##  Future Improvements
+
+- holiday and festival effects
+-larger state coverage
+-integration with real government datasets
+-interactive Streamlit dashboard
+
 ## 👨‍💻 Authors
 
 | Name | Roll Number |
